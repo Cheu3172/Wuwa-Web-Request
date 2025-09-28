@@ -1,0 +1,70 @@
+{
+  "guidance": {
+    "desc": "Unavailable",
+    "activity": {
+      "title": "Event",
+      "sort": 1,
+      "functionSwitch": 0,
+      "contents": []
+    },
+    "notice": {
+      "title": "Notice",
+      "sort": 2,
+      "functionSwitch": 1,
+      "contents": [
+        {
+          "content": "[Through Verses and Rhythms] Featured Resonator Convene: Boosted Drop Rate for Ciaccona",
+          "jumpUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/3267",
+          "time": "09-16"
+        },
+        {
+          "content": "[Across Time's Waxes and Wanes] Featured Resonator Convene: Boosted Drop Rate for Iuno",
+          "jumpUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/3260",
+          "time": "09-16"
+        }
+      ]
+    },
+    "news": {
+      "title": "News",
+      "sort": 3,
+      "functionSwitch": 1,
+      "contents": [
+        {
+          "content": "Post-Lament Anthropocene: Stars Intertwined | Iuno",
+          "jumpUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/3242",
+          "time": "09-16"
+        },
+        {
+          "content": "Profile Reveal | Stasis, Cycle, Renewal — Iuno",
+          "jumpUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/3252",
+          "time": "09-16"
+        },
+        {
+          "content": "Wuthering Waves Update Content | Version 2.6 \"By Sun's Scourge, By Moon's Revelation\" Planned for Release on August 28 (UTC+8)",
+          "jumpUrl": "https://wutheringwaves.kurogames.com/en/main/news/detail/3128",
+          "time": "08-27"
+        }
+      ]
+    }
+  },
+  "slideshow": [
+    {
+      "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/news/slide-picture/ews2mjvzemn2yiddv0.png",
+      "jumpUrl": "https://youtu.be/jkQKtP6oW04",
+      "md5": "b5a16667eb6406accba8ceefb443d394",
+      "carouselNotes": "2.6-尤诺战斗演示"
+    },
+    {
+      "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/news/slide-picture/rhl5lt1vy300ldkgpf.png",
+      "jumpUrl": "https://youtu.be/hbF8kygJepE",
+      "md5": "14263244353380bd0e594d9b8d5155ec",
+      "carouselNotes": "2.6-尤诺角色pv"
+    },
+    {
+      "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/news/slide-picture/c29rgkj3sqexy5dqzf.jpg",
+      "jumpUrl": "https://youtu.be/ptcaa2x8YaQ",
+      "md5": "8e7874fb6d40c99a6780c1d89acea04d",
+      "carouselNotes": "2.6-版本pv"
+    }
+  ]
+}

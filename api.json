@@ -1,0 +1,18 @@
+{
+  "news": {
+    "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/information/en.json",
+    "description": "Retrieves news, notices, and event information for the launcher's main content area."
+  },
+  "wallpapers": {
+    "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/background/U82Wn9dbNc2o7zZBWz1cOnJm9r52qFKH/en.json?_t=1758743410",
+    "description": "Fetches launcher wallpapers and the title for the current version/update."
+  },
+  "socials": {
+    "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/social/en.json?_t=1758744184",
+    "description": "Provides links and icon data for official social media channels."
+  },
+  "client_manifest": {
+    "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/index.json",
+    "description": "Contains download, update, and repair manifests for the game client."
+  }
+}
