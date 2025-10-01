@@ -11,8 +11,13 @@
     "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/social/en.json?_t=1758744184",
     "description": "Provides links and icon data for official social media channels."
   },
+  "localpath-index": {
+    "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/game/G153/50004/2.6.2/TmryWWDzYshLRahsXoGizseCUnInEDtj/resource/50004/2.6.2/indexFile.json",
+    "description": "Provides a localpath index to quickly check the integrity of files, used during repair request for launcher."
+  },
   "client_manifest": {
     "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/index.json",
     "description": "Contains download, update, and repair manifests for the game client."
   }
+
 }
