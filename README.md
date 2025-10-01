@@ -2,10 +2,7 @@
 A repository for archiving the Web Request/JSON data responses from the official *Wuthering Waves* launcher and game client APIs.
 
 Maintained by [Acheuy](https://github.com/Cheu3172).
-## To Do
-- Add osBeta Client, and it's localpath-index
-- Add cnBeta Client, and it's localpath-index
-- Add cnLive Client, and it's localpath-index
+
 ## Repository Structure
 This repository is organized by game/launcher version. Each version has its own dedicated folder containing the JSON data relevant to that specific release.
 
