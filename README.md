@@ -9,10 +9,11 @@ This repository is organized by game/launcher version. Each version has its own 
 .
 ├── api.json
 ├── 2.6.0v/
-│   ├── globalClient.json
-│   ├── news.json
-│   ├── socials.json
-│   └── wallpaper.json
+│   ├── localpath-index.json
+│   ├── news-notices.json
+│   ├── osLive-client.json
+│   ├── socials-icons.json
+│   └── wallpapers-slogan.json
 ├── 0.0.0v/
 │   └── ... (newer version's files)
 └── README.md
@@ -24,31 +25,36 @@ This contains the API endpoint URLs used by the official launcher. This file wil
 **Structure:**
 ```json
 {
-  "news": {
-    "url": "https://prod-alicdn-gamestarter.kurogame.com/...",
-    "description": "Retrieves news, notices, and events."
+  "news-notices": {
+    "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/information/en.json",
+    "description": "Provides the content for the News Content Section in the Official Launcher."
   },
-  "wallpapers": {
-    "url": "https://prod-alicdn-gamestarter.kurogame.com/...",
-    "description": "Fetches launcher wallpapers and update titles."
+  "wallpapers-slogan": {
+    "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/background/U82Wn9dbNc2o7zZBWz1cOnJm9r52qFKH/en.json?_t=1758743410",
+    "description": "Provides the content for the version Wallpaper & Slogan in the Offical Launcher."
   },
-  "socials": {
-    "url": "https://prod-alicdn-gamestarter.kurogame.com/...",
-    "description": "Provides links to official social media channels."
+  "socials-icons": {
+    "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/social/en.json?_t=1758744184",
+    "description": "Provides the content for the Socials Section in the Official Launcher."
   },
-  "client_manifest": {
-    "url": "https://prod-alicdn-gamestarter.kurogame.com/...",
-    "description": "Contains manifests for game client downloads and repairs."
+  "localpath-index": {
+    "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/game/G153/50004/[VERSION HERE(Example: 2.6.2)]/TmryWWDzYshLRahsXoGizseCUnInEDtj/resource/50004/2.6.2/indexFile.json",
+    "description": "Provides an indexFile of localpaths for checking osLive file integrity, used in the Official Launcher for repairs."
+  },
+  "osLive-client": {
+    "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/index.json",
+    "description": "Provides an index of data used in Downloading & Updating the game in the Official Launcher, for overseas live client."
   }
 }
 ```
 ### 2\. Versioned Files (e.g., `2.6.0v/*.json`)
 The folders named after game versions (like `2.6.0v`) contain the **actual JSON data** returned by the APIs during that version's lifecycle.
 
-  * `globalClient.json`: The game client manifest for downloading, updating, and repairing game files.
-  * `news.json`: The raw data for news, events, and announcements shown in the launcher.
-  * `socials.json`: The data for social media links and icons.
-  * `wallpaper.json`: The data containing URLs for launcher background images and update titles.
+  * `localpath-index.json` The data of localpaths, usually used when running repair in the launcher.
+  * `news-notices.json`: The data for news, notices, and banners shown in the launcher.
+  * `osLive-client.json`: The data for Downloads & Updates, also other info.
+  * `socials-icons.json`: The data containing URLs for launcher background images and update titles.
+  * `wallpapers-slogan.json`: The data for the Launcher's version wallpaper, and slogan.
 
 -----
 
