@@ -10,12 +10,13 @@ This repository is organized by game/launcher version. Each version has its own 
 .
 ├── api.json
 ├── 2.6.0v/
-│   ├── localpath-index.json
 │   ├── news-notices.json
 │   ├── osLive-client.json
-│   ├── osBeta-client.json
+│   ├── osLive-localpath-index.json
+│   ├── osBeta-client.json (if available)
 │   ├── cnLive-client.json
-│   ├── cnBeta-client.json
+│   ├── cnLive-localpath-index.json
+│   ├── cnBeta-client.json (if available)
 │   ├── socials-icons.json
 │   └── wallpapers-slogan.json
 ├── 0.0.0v/
@@ -48,8 +49,8 @@ This contains the API endpoint URLs used by the official launcher. This file wil
         "description": "Provides the content for the Socials Section in the Official Launcher."
       },
       "localpath-index": {
-        "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/game/G153/50004/[VERSION]/TmryWWDzYshLRahsXoGizseCUnInEDtj/resource/50004/2.6.2/indexFile.json",
-        "description": "Provides an indexFile of localpaths for checking file integrity, used in the Official Launcher for repairs."
+        "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/game/G153/50004/2.6.2/TmryWWDzYshLRahsXoGizseCUnInEDtj/resource/50004/2.6.2/indexFile.json",
+        "description": "Provides an indexFile of localpaths for checking osLive file integrity, used in the Official Launcher for repairs."
       }
     },
     "osBeta": {
@@ -62,6 +63,10 @@ This contains the API endpoint URLs used by the official launcher. This file wil
       "client": {
         "url": "https://prod-cn-alicdn-gamestarter.kurogame.com/launcher/game/G152/10003_Y8xXrXk65DqFHEDgApn3cpK5lfczpFx5/index.json",
         "description": "Provides an index of data used in Downloading & Updating the game in the Official Launcher, for China live client."
+      },
+      "localpath-index": {
+        "url": "https://pcdownload-aliyun.aki-game.com/launcher/game/G152/10003/2.6.2/DYINNoSACrMDUahXEhMxmWqVOHJjvFSH/resource/10003/2.6.2/indexFile.json",
+        "description": "Provides an indexFile of localpaths for checking cnLive file integrity, used in the Official Launcher for repairs."
       }
     },
     "cnBeta": {
@@ -76,14 +81,15 @@ This contains the API endpoint URLs used by the official launcher. This file wil
 ### 2\. Versioned Files (e.g., `2.6.0v/*.json`)
 The folders named after game versions (like `2.6.0v`) contain the **actual JSON data** returned by the APIs during that version's lifecycle.
 
-  * `localpath-index.json` The data of localpaths, usually used when running repair in the launcher, only for osLive.
+  * `osLive-localpath-index.json` The data of localpaths, usually used when running repair in the launcher, only for osLive.
+  * `cnLive-localpath-index.json` The data of localpaths, usually used when running repair in the launcher, only for cnLive.
   * `news-notices.json`: The data for news, notices, and banners shown in the launcher, only for osLive.
   * `socials-icons.json`: The data containing URLs for launcher background images and update titles, only for osLive.
   * `wallpapers-slogan.json`: The data for the Launcher's version wallpaper, and slogan, only for osLive.
   * `osLive-client.json`: The data for osLive Downloads & Updates, also other info.
-  * `osBeta-client.json`: The data for osBeta Downloads & Updates, also other info.
+  * `osBeta-client.json`: The data for osBeta Downloads & Updates, also other info. (if available)
   * `cnLive-client.json`: The data for cnLive Downloads & Updates, also other info.
-  * `cnBeta-client.json`: The data for cnBeta Downloads & Updates, also other info.
+  * `cnBeta-client.json`: The data for cnBeta Downloads & Updates, also other info. (if available)
 
 -----
 
