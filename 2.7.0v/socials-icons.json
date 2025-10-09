@@ -1,0 +1,60 @@
+{
+  "data": [
+    {
+      "icon": "https://prod-alicdn-gamestarter.kurogame.com/launcher/base-config/icons/BWI4LJHRJH0NVQE6.png",
+      "name": "facebook",
+      "iconJumpUrl": "https://www.facebook.com/WutheringWaves.Official",
+      "secondJumpInfoList": null,
+      "qrCode": null
+    },
+    {
+      "icon": "https://prod-alicdn-gamestarter.kurogame.com/launcher/base-config/icons/J6BIZDQFII9KYFTL.png",
+      "name": "twitter",
+      "iconJumpUrl": "https://twitter.com/Wuthering_Waves",
+      "secondJumpInfoList": null,
+      "qrCode": null
+    },
+    {
+      "icon": "https://prod-alicdn-gamestarter.kurogame.com/launcher/base-config/icons/M1S1S0ILZTKRAHHU.png",
+      "name": "youtube",
+      "iconJumpUrl": "https://www.youtube.com/@WutheringWaves",
+      "secondJumpInfoList": null,
+      "qrCode": null
+    },
+    {
+      "icon": "https://prod-alicdn-gamestarter.kurogame.com/launcher/base-config/icons/ACNUV3K9IQFOYITN.png",
+      "name": "Discord",
+      "iconJumpUrl": "https://discord.com/invite/wutheringwaves",
+      "secondJumpInfoList": null,
+      "qrCode": null
+    },
+    {
+      "icon": "https://prod-alicdn-gamestarter.kurogame.com/launcher/base-config/icons/GPPHIDYQ8F9QJ8W1.png",
+      "name": "reddit",
+      "iconJumpUrl": "https://www.reddit.com/r/WutheringWaves/",
+      "secondJumpInfoList": null,
+      "qrCode": null
+    },
+    {
+      "icon": "https://prod-alicdn-gamestarter.kurogame.com/launcher/base-config/icons/FE61X8OX5TSAPSUX.png",
+      "name": "tiktok",
+      "iconJumpUrl": "https://www.tiktok.com/@wutheringwaves_official",
+      "secondJumpInfoList": null,
+      "qrCode": null
+    },
+    {
+      "icon": "https://prod-alicdn-gamestarter.kurogame.com/launcher/base-config/icons/D3KQOCH80VNEB8C3.png",
+      "name": "kefu",
+      "iconJumpUrl": "https://web-static.kurogame.net/shared/zhichi-cs/index.html?islogin=1&game_id=G153&language=en",
+      "secondJumpInfoList": [
+        {
+          "tip": "Customer Service",
+          "jump": "https://web-static.kurogame.net/shared/zhichi-cs/index.html?islogin=1&game_id=G153&language=en",
+          "recordId": "AUTO-17415899595859"
+        }
+      ],
+      "qrCode": null
+    }
+  ],
+  "switch": 1
+}
