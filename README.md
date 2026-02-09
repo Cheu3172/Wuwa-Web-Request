@@ -11,12 +11,6 @@ This repository is organized by game/launcher version. Each version has its own 
 ├── api.json
 ├── 2.6.0v/
 │   ├── api-version.json
-│   ├── news-notices.json
-│   ├── osBeta-client.json (if available)
-│   ├── osLive-client.json
-│   ├── osLive-localpath-index.json
-│   ├── socials-icons.json
-│   └── wallpapers-slogan.json
 ├── 0.0.0v/
 │   └── ... (newer version's files)
 └── README.md
@@ -64,14 +58,6 @@ This contains the API endpoint URLs used by the official launcher. This file wil
 The folders named after game versions (like `2.6.0v`) contain the **actual JSON data** returned by the APIs during that version's lifecycle.
 
   * `api-version.json`: The data for that versions api's.
-  * `news-notices.json`: The data for news, notices, and banners shown in the launcher, only for osLive.
-  * `osBeta-client.json`: The data for osBeta Downloads & Updates, also other info. (if available)
-  * `osLive-client.json`: The data for osLive Downloads & Updates, also other info.
-  * `osLive-localpath-index.json`: The data for osLive repairs, its local paths.
-  * `socials-icons.json`: The data containing URLs for launcher background images and update titles, only for osLive.
-  * `wallpapers-slogan.json`: The data for the Launcher's version wallpaper, and slogan, only for osLive. (API CHANGES PER UPDATE)
-
-
 -----
 
 *Disclaimer: This is a community-driven project for archival and development purposes and is not officially affiliated with Kuro Games.*
