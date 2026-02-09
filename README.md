@@ -32,23 +32,17 @@ This contains the API endpoint URLs used by the official launcher. This file wil
         "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/information/en.json",
         "description": "Provides the content for the News Content Section in the Official Launcher."
       },
-      "wallpapers-slogan": { (API CHANGES PER UPDATE)
-        "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/background/U82Wn9dbNc2o7zZBWz1cOnJm9r52qFKH/en.json?_t=1758743410",
+      "wallpapers-slogan": {
+        "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/G153/background/4PCDArE0Qqed5ISZFqovsyy1SZD6A8es/en.json",
         "description": "Provides the content for the version Wallpaper & Slogan in the Official Launcher."
       },
       "socials-icons": {
-        "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/social/en.json?_t=1758744184",
+        "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/G153/50004_obOHXFrFanqsaIEOmuKroCcbZkQRBC7c/social/en.json",
         "description": "Provides the content for the Socials Section in the Official Launcher."
       },
       "localpath-index": {
-        "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/game/G153/50004/2.6.2/TmryWWDzYshLRahsXoGizseCUnInEDtj/resource/50004/2.6.2/indexFile.json",
+        "url": "https://hw-pcdownload-qcloud.aki-game.net/launcher/game/G153/50004/3.1.0/XfkUzvRvsSBNDeWsWrmbfnrNkrszHjox/resource/50004/3.1.0/indexFile.json",
         "description": "Provides an indexFile of localpaths for checking osLive file integrity, used in the Official Launcher for repairs."
-      }
-    },
-    "osBeta": {
-      "client": {
-        "url": "https://prod-alicdn-gamestarter.kurogame.com/launcher/game/G153/50013_HiDX7UaJOXpKl3pigJwVxhg5z1wllus5/index.json",
-        "description": "Provides an index of data used in Downloading & Updating the game in the Official Launcher, for overseas beta client."
       }
     }
   }
